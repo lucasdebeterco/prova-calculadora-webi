@@ -25,18 +25,18 @@
 </head>
 
 <body>
-    <form name=calc action='#' method='post'>
+    <form name="calc" action="#" method="post">
         <div class="conteudo" style="display: flex; flex-direction: column; width: 210px; height: 250px; justify-content: space-between">
             <h3>Calculadora PHP</h3>
             <input type="text" name="num1" placeholder="Digite o primeiro valor..">
             <select name="func" size="2">
-                <option value=add>+</option>
-                <option value=sub>-</option>
-                <option value=mul>*</option>
-                <option value=div>/</option>
+                <option value="add">+</option>
+                <option value="sub">-</option>
+                <option value="mul">*</option>
+                <option value="div">/</option>
             </select>
             <input type="text" name="num2" placeholder="Digite o segundo valor..">
-            <input type="submit" name="enviar" value='='>
+            <input type="submit" name="enviar" value="=">
         </div>
     </form>
 
